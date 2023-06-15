@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Shadow Nexus",
+    "slug": "myanimelist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffff"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffff",
+      "translucent": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.m_husnain.myanimelist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "502a4c1d-e3fd-41bb-82f3-0d62d5a21b00"
+      }
+    },
+    "owner": "m_husnain"
+  }
+}
